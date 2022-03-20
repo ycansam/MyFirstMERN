@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 
 class App extends Component {
 
@@ -127,6 +127,8 @@ class App extends Component {
                     <div className="container">
                         <a className="brand-logo" href="/">MERN STACK</a>
                     </div>
+                    <Link to="/invoices">Invoices</Link> |{" "}
+                    <Link to="/expenses">Expenses</Link>
                 </nav>
 
                 <div className="container">
